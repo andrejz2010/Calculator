@@ -5,9 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Random random= new Random();
-        int randomNumber1= random.nextInt(100);
-        int randomNumber2= random.nextInt(100);
+
         System.out.print("Please enter an operation \"+\", \"-\" or \"*\"   ");
         Scanner scanner = new Scanner(System.in);
 
